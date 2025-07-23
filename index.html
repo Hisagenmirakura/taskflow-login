@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ログイン画面（Figma再現）</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="login-card">
+      <h1 class="logo">TaskFlow</h1>
+      <p class="tagline">あなたの生産性を最大化</p>
+      <form class="login-form">
+        <label for="email">メールアドレス</label>
+        <input type="email" id="email" placeholder="your@email.com" required />
+
+        <label for="password">パスワード</label>
+        <input type="password" id="password" placeholder="パスワードを入力" required />
+
+        <div class="form-row">
+          <label class="checkbox-label">
+            <input type="checkbox" /> ログイン状態を保持
+          </label>
+          <a href="#" class="link-forgot">パスワードを忘れた方</a>
+        </div>
+
+        <button type="submit" class="btn-login">ログイン</button>
+      </form>
+
+      <div class="divider"><span>または</span></div>
+
+      <div class="social-buttons">
+        <button class="btn-social btn-google">Google</button>
+        <button class="btn-social btn-facebook">Facebook</button>
+      </div>
+
+      <p class="signup-prompt">
+        アカウントをお持ちでない方は
+        <a href="#" class="link-signup">新規登録</a>
+      </p>
+    </div>
+  </div>
+</body>
+</html>
