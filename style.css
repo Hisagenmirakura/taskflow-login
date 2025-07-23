@@ -140,6 +140,13 @@ body {
   background-color: #ffffff;
 }
 
+.logo-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
 .btn-google {
   color: #444444;
 }
