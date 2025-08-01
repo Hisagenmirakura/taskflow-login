@@ -2,11 +2,11 @@
 body {
   margin: 0;
   font-family: 'Noto Sans', sans-serif;
-  background: linear-gradient(135deg, #5b76f7, #6e88f9);
+  background: linear-gradient(135deg, #5b76f7, #6e88f9);  /* グラデーション背景？ 5778ff */
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 100vh;                                              /*  min-height: 100vh */
 }
 
 /* 中央のカード */
@@ -24,38 +24,38 @@ body {
   text-align: center;
 }
 
-/* ロゴ & タグライン */
+/* ロゴ TaskFlow & タグライン あなたの生産性を最大化 */
 .logo {
-  font-size: 26px;
-  font-weight: 700;
-  color: #333333;
+  font-size: 26px;                                          /* ロゴのフォントサイズ 24 */  
+  font-weight: 700;                                         /* ロゴのフォントウェイト bold */   
+  color: #333333;                                         /* ロゴの文字色 000000 */  
   margin-bottom: 8px;
 }
 
 .tagline {
   font-size: 14px;
-  color: #666666;
-  margin-bottom: 28px;
+  color: #666666;                                         /* タグラインの文字色 000000 */
+  margin-bottom: 28px;                                      /* タグラインのマージン 32px */
 }
 
 /* フォーム */
 .login-form {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 12px;                                                /* フォームの間隔 16px */   
   text-align: left;
 }
 
 .login-form label {
   font-size: 14px;
-  margin-bottom: 4px;
-  color: #333333;
+  margin-bottom: 4px;                                       /* ラベルのマージン 8px */
+  color: #333333;                                         /* ラベルの文字色 000000 */
 }
 
 .login-form input {
-  padding: 10px 12px;
+  padding: 10px 12px;                                       /* 入力フィールドのパディング 12px 16px */   
   font-size: 14px;
-  border: 1px solid #ddd;
+  border: 1px solid #ddd;                                 /* 入力フィールドのボーダー 1px solid d8d8d8 */
   border-radius: 8px;
 }
 
@@ -64,7 +64,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 12px;
+  font-size: 12px;                                           /* フォームのフォントサイズ 14px */
 }
 
 .checkbox-label input {
@@ -72,21 +72,21 @@ body {
 }
 
 .link-forgot {
-  color: #245fff;
+  color: #245fff;                                           /* リンクの色 0033ff */
   text-decoration: none;
 }
 
 /* ログインボタン */
 .btn-login {
-  margin-top: 16px;
+  margin-top: 16px;                                           /* ログインボタンのマージン 40px */
   width: 100%;
-  padding: 12px;
-  background-color: #0052ff;
+  padding: 12px;                                              /* ログインボタンのパディング 10px 10px */
+  background-color: #0052ff;                                /* ログインボタンの背景色 0033ff */ 
   color: #ffffff;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 500;                                           /* フォントウェイト bold */                                
   border: none;
-  border-radius: 8px;
+  border-radius: 8px;                                         /* 4px */
   cursor: pointer;
 }
 
@@ -96,7 +96,7 @@ body {
   text-align: center;
   margin: 30px 0 20px;
   font-size: 12px;
-  color: #aaaaaa;
+  color: #aaaaaa;                                           /* 区切り線の文字色 a2a2a2 */ 
 }
 
 .divider::before,
@@ -106,7 +106,7 @@ body {
   top: 50%;
   width: 40%;
   height: 1px;
-  background: #e0e0e0;
+  background: #e0e0e0;                                      /* 区切り線の色 d9d9d9 */
 }
 
 .divider::before {
@@ -134,7 +134,7 @@ body {
   padding: 10px 0;
   font-size: 14px;
   font-weight: 500;
-  border: 1px solid #ccc;
+  border: 1px solid #ccc;                                      /* ソーシャルボタンのボーダー d8d8d8 */
   border-radius: 8px;
   cursor: pointer;
   background-color: #ffffff;
@@ -157,12 +157,12 @@ body {
 
 /* 新規登録リンク */
 .signup-prompt {
-  font-size: 12px;
-  color: #333333;
+  font-size: 12px;                                              /* フォントサイズ 14px */ 
+  color: #333333;                                             /* 文字色 000000 */  
   margin-top: 18px;
 }
 
 .link-signup {
-  color: #245fff;
+  color: #245fff;                                             /* 新規登録リンクの色 0033ff */
   text-decoration: none;
 }
