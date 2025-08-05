@@ -2,24 +2,29 @@
 body {
   margin: 0;
   font-family: 'Noto Sans', sans-serif;
-  background: #5778ff;                               /* グラデーション背景？ 5778ff */
+  background: #5778ff;
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;                                              /*  min-height: 100vh */
+  min-height: 100vh;    /* 画面の高さに合わせる */
+  /*height: 100vh;         /* 画面の高さに合わせる */
 }
 
 /* 中央のカード */
 .container {
-  width: 100%;
-  max-width: 400px;
-  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .login-card {
+  width: 320px;
+  height: 525px;
+  padding: 32px; /* パディングを指定 */
+  /*width: 100%;*/
   background-color: #ffffff;
   border-radius: 12px;
-  padding: 40px 30px;
+ /* padding: 40px 30px;*/
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
@@ -48,7 +53,7 @@ body {
 
 .login-form label {
   font-size: 14px;
-  margin-bottom: 8px;                                       /* ラベルのマージン 8px */
+  /*margin-bottom: 8px;                                       /* ラベルのマージン 8px */
   color: #000000;                                         /* ラベルの文字色 000000 */
 }
 
